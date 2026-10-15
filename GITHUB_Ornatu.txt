@@ -1,0 +1,13 @@
+GitHub-қа жүктеу реті
+
+1. JAVA_okulyk_ready.zip архивін толық ашыңыз (Extract all / Извлечь все).
+2. Мына репозиторийге кіріңіз:
+https://github.com/akgulnaizagarayeva-maker/JAVA_okulyk
+3. Code бетінде Add file → Upload files таңдаңыз.
+4. Архивтің ішіндегі файлдар мен assets, vendor, output қалталарын бірге жүктеу аймағына сүйреп апарыңыз.
+   index.html файлымен assets, vendor, output қалталары бір деңгейде тұруы керек.
+5. Жүктеу аяқталған соң Commit changes басыңыз.
+6. Actions бетінде Pages жариялауы аяқталғаннан кейін сайтты Ctrl+F5 арқылы ашыңыз:
+https://akgulnaizagarayeva-maker.github.io/JAVA_okulyk/
+
+ZIP файлының өзін сайтқа жүктемеңіз. Қалталарды бірге жүктеңіз.
