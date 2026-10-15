@@ -1,0 +1,112 @@
+[
+  {
+    "lecture": 1,
+    "id": "0uzIT-woqPk",
+    "url": "https://www.youtube.com/watch?v=0uzIT-woqPk",
+    "title": "Лекция 1 Объектіге бағытталған бағдарламалауға кіріспе",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "lecture": 4,
+    "id": "Oy8iUj-t0ME",
+    "url": "https://www.youtube.com/watch?v=Oy8iUj-t0ME",
+    "title": "Java программалау тілі / Сабақ #1.",
+    "author": "Школа программирования",
+    "embed_available": true
+  },
+  {
+    "lecture": 3,
+    "id": "J15ZmrZ0eKY",
+    "url": "https://www.youtube.com/watch?v=J15ZmrZ0eKY",
+    "title": "Лекция 8 Кіріс шығыс үрдістері",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "lecture": 5,
+    "id": "QnXjS2__woI",
+    "url": "https://www.youtube.com/watch?v=QnXjS2__woI",
+    "title": "Java программалау тілі / Сабақ #2.",
+    "author": "Школа программирования",
+    "embed_available": true
+  },
+  {
+    "lecture": 6,
+    "id": "BwR8B-xyacI",
+    "url": "https://www.youtube.com/watch?v=BwR8B-xyacI",
+    "title": "Алгоритмдер қазақша | #2 - Сұрыптау алгоритмдері",
+    "author": "CodeeKZ - ашық IT сабақтары",
+    "embed_available": true
+  },
+  {
+    "lecture": 7,
+    "id": "1cCErm7m9uI",
+    "url": "https://www.youtube.com/watch?v=1cCErm7m9uI",
+    "title": "Лекция 6 Жолдармен жұмыс",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "lecture": 8,
+    "id": "_0wTQlUfyog",
+    "url": "https://www.youtube.com/watch?v=_0wTQlUfyog",
+    "title": "Java. ООП. Матрицаны құру және көбейту программасы",
+    "author": "Aibol Maxotov",
+    "embed_available": true
+  },
+  {
+    "id": "l5Sm2Ps6AOg",
+    "title": "Пайдаланушы функциялары мен процедуралары. Рекурсия 10 - сынып",
+    "author": "Кашыктан уйрен / Информатика АКТ",
+    "embed_available": true
+  },
+  {
+    "id": "ymEk7l1pDXk",
+    "title": "Лекция 10 Объектіге бағытталған бағдарламалау принциптерін жолдарға қолдану",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "id": "e2_9PspS438",
+    "title": "Лекция 2 Объектіге бағытталған әдіс",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "id": "-FwgqBZ4pzg",
+    "title": "Лекция 3 Объектілер мен класстар  туралы түсінік",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "id": "Adfis0xegGY",
+    "title": "Лекция 7 Java тілінің стандартты кітапханалары және пакеттер",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "id": "5P1JN5l7saI",
+    "title": "Лекция 9 Ерекшеліктерді өңдеу",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "id": "1uvFj9lNWnk",
+    "title": "Алгоритмдер қазақша | #5 - ArrayList-ті құру",
+    "author": "CodeeKZ - ашық IT сабақтары",
+    "embed_available": true
+  },
+  {
+    "id": "NhNSnighWDE",
+    "title": "Лекция 4 Мұралау, иерархияны тұрғызу  Әдістерді қайта анықтау",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  },
+  {
+    "id": "2COP9mhhuFo",
+    "title": "Лекция 5 Абстрактылы класстар  Интерфейстeр",
+    "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+    "embed_available": true
+  }
+]

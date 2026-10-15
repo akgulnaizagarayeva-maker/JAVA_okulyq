@@ -1,0 +1,1432 @@
+{
+  "version": 4,
+  "revision": "20261015-test-v8",
+  "edition": 2026,
+  "title": "Java тілінде объектіге бағытталған бағдарламалау",
+  "pdf": "./output/pdf/java-reader.pdf",
+  "width": 480,
+  "height": 680,
+  "selfCheckUrl": "self-check.html",
+  "pageCount": 155,
+  "contents": [
+    {
+      "title": "Мазмұны",
+      "key": "contents",
+      "depth": 0,
+      "page": 3
+    },
+    {
+      "title": "Кіріспе",
+      "key": "foreword",
+      "depth": 0,
+      "page": 4
+    },
+    {
+      "title": "Оқу құралының мақсаты мен міндеттері",
+      "key": "purpose",
+      "depth": 1,
+      "page": 5
+    },
+    {
+      "title": "Күтілетін оқу нәтижелері",
+      "key": "outcomes",
+      "depth": 1,
+      "page": 6
+    },
+    {
+      "title": "Электрондық оқу құралын пайдалану нұсқаулығы",
+      "key": "guide",
+      "depth": 1,
+      "page": 7
+    },
+    {
+      "title": "Бағдарламалау ортасын орнату және баптау",
+      "key": "setup",
+      "depth": 1,
+      "page": 8
+    },
+    {
+      "title": "Теориялық бөлім",
+      "key": "theory",
+      "depth": 0,
+      "page": 9
+    },
+    {
+      "title": "1.1. Java тіліне кіріспе",
+      "key": "lecture-1",
+      "depth": 1,
+      "page": 11
+    },
+    {
+      "title": "1.2. Тілдің негіздері, мәліметтер типтері және әзірлеу ортасы",
+      "key": "lecture-2",
+      "depth": 1,
+      "page": 14
+    },
+    {
+      "title": "1.3. Мәліметтерді енгізу және шығару",
+      "key": "lecture-3",
+      "depth": 1,
+      "page": 20
+    },
+    {
+      "title": "1.4. Базалық математикалық операциялар және есептеулер",
+      "key": "lecture-4",
+      "depth": 1,
+      "page": 24
+    },
+    {
+      "title": "1.5. Шартты оператор — if",
+      "key": "lecture-5",
+      "depth": 1,
+      "page": 32
+    },
+    {
+      "title": "1.6. Циклдік операторлар — for және while",
+      "key": "lecture-6",
+      "depth": 1,
+      "page": 35
+    },
+    {
+      "title": "1.7. Тізімдер",
+      "key": "lecture-7",
+      "depth": 1,
+      "page": 41
+    },
+    {
+      "title": "1.8. Рекурсия және екіөлшемді массивтер",
+      "key": "lecture-8",
+      "depth": 1,
+      "page": 44
+    },
+    {
+      "title": "1.9. Әдістерді жариялау. Жиындар",
+      "key": "lecture-9",
+      "depth": 1,
+      "page": 48
+    },
+    {
+      "title": "1.10. Сөздіктер",
+      "key": "lecture-10",
+      "depth": 1,
+      "page": 52
+    },
+    {
+      "title": "1.11. Объектіге бағытталған бағдарламалауға кіріспе",
+      "key": "lecture-11",
+      "depth": 1,
+      "page": 55
+    },
+    {
+      "title": "1.12. Модульдер",
+      "key": "lecture-12",
+      "depth": 1,
+      "page": 59
+    },
+    {
+      "title": "1.13. MATLAB тәрізді және басқа кітапханаларды пайдалану",
+      "key": "lecture-13",
+      "depth": 1,
+      "page": 64
+    },
+    {
+      "title": "1.14. Қателерді талдау және ерекше жағдайларды өңдеу",
+      "key": "lecture-14",
+      "depth": 1,
+      "page": 72
+    },
+    {
+      "title": "1.15. Ерекше жағдайларды өңдеу және бағдарламаның тұрақтылығы",
+      "key": "lecture-15",
+      "depth": 1,
+      "page": 78
+    },
+    {
+      "title": "Практикалық бөлім",
+      "key": "practice",
+      "depth": 0,
+      "page": 81
+    },
+    {
+      "title": "2.1. Java тілінің негіздері, мәліметтер типтері және бағдарламалау ортасын орнату",
+      "key": "lab-1",
+      "depth": 1,
+      "page": 82
+    },
+    {
+      "title": "2.2. Мәліметтерді енгізу және шығару",
+      "key": "lab-2",
+      "depth": 1,
+      "page": 86
+    },
+    {
+      "title": "2.3. Базалық математикалық операциялар және есептеулер",
+      "key": "lab-3",
+      "depth": 1,
+      "page": 88
+    },
+    {
+      "title": "2.4. if шартты операторы",
+      "key": "lab-4",
+      "depth": 1,
+      "page": 91
+    },
+    {
+      "title": "2.5. Қайталау алгоритмдері және циклдік операторлар",
+      "key": "lab-5-6",
+      "depth": 1,
+      "page": 95
+    },
+    {
+      "title": "2.6. Тізімдер және жолдармен жұмыс",
+      "key": "lab-7",
+      "depth": 1,
+      "page": 101
+    },
+    {
+      "title": "2.7. Әдістерді жариялау және қолдану",
+      "key": "lab-8",
+      "depth": 1,
+      "page": 106
+    },
+    {
+      "title": "2.8. Жиындармен жұмыс",
+      "key": "lab-9",
+      "depth": 1,
+      "page": 109
+    },
+    {
+      "title": "2.9. Екіөлшемді және көпөлшемді массивтер",
+      "key": "lab-10",
+      "depth": 1,
+      "page": 113
+    },
+    {
+      "title": "2.10. Сөздіктермен жұмыс",
+      "key": "lab-11",
+      "depth": 1,
+      "page": 116
+    },
+    {
+      "title": "2.11. Объектіге бағытталған бағдарламалаудың негіздері: кластар және объектілер",
+      "key": "lab-12",
+      "depth": 1,
+      "page": 118
+    },
+    {
+      "title": "2.12. Модульдер және олардың негіздері",
+      "key": "lab-13",
+      "depth": 1,
+      "page": 130
+    },
+    {
+      "title": "2.13. MATLAB тәрізді және басқа кітапханаларды қолдану",
+      "key": "lab-14",
+      "depth": 1,
+      "page": 134
+    },
+    {
+      "title": "2.14. Қателерді талдау және ерекше жағдайларды өңдеу",
+      "key": "lab-15",
+      "depth": 1,
+      "page": 138
+    },
+    {
+      "title": "Білім алушының өзіндік жұмысы",
+      "key": "independent",
+      "depth": 0,
+      "page": 142
+    },
+    {
+      "title": "Тақырыптар бойынша өзіндік жұмыс тапсырмалары",
+      "key": "independent-topics",
+      "depth": 1,
+      "page": 143
+    },
+    {
+      "title": "Жеке бағдарламалық есептер",
+      "key": "independent-problems",
+      "depth": 1,
+      "page": 145
+    },
+    {
+      "title": "Шағын жоба тақырыптары",
+      "key": "independent-projects",
+      "depth": 1,
+      "page": 146
+    },
+    {
+      "title": "Жұмысты рәсімдеу және қорғау талаптары",
+      "key": "independent-defense",
+      "depth": 1,
+      "page": 147
+    },
+    {
+      "title": "Өзін-өзі тексеру тесттері",
+      "key": "assessment",
+      "depth": 0,
+      "page": 148
+    },
+    {
+      "title": "Глоссарий",
+      "key": "glossary",
+      "depth": 0,
+      "page": 149
+    },
+    {
+      "title": "Қорытынды",
+      "key": "conclusion",
+      "depth": 0,
+      "page": 153
+    },
+    {
+      "title": "Пайдаланылған және ұсынылатын әдебиеттер",
+      "key": "references",
+      "depth": 0,
+      "page": 154
+    }
+  ],
+  "labVideos": {
+    "lab-1": {
+      "videos": [
+        {
+          "id": "Oy8iUj-t0ME",
+          "url": "https://www.youtube.com/watch?v=Oy8iUj-t0ME",
+          "title": "Java программалау тілі / Сабақ #1.",
+          "author": "Школа программирования",
+          "language": "kk",
+          "note": "Java негіздері, деректер типтері және алғашқы бағдарламаны орындау.",
+          "source": "https://www.youtube.com/watch?v=Oy8iUj-t0ME"
+        }
+      ]
+    },
+    "lab-2": {
+      "videos": [
+        {
+          "id": "Oy8iUj-t0ME",
+          "url": "https://www.youtube.com/watch?v=Oy8iUj-t0ME",
+          "title": "Java программалау тілі / Сабақ #1.",
+          "author": "Школа программирования",
+          "language": "kk",
+          "note": "Мәліметтерді консольден енгізу және экранға шығару.",
+          "source": "https://www.youtube.com/watch?v=Oy8iUj-t0ME"
+        }
+      ]
+    },
+    "lab-3": {
+      "videos": [
+        {
+          "id": "Oy8iUj-t0ME",
+          "url": "https://www.youtube.com/watch?v=Oy8iUj-t0ME",
+          "title": "Java программалау тілі / Сабақ #1.",
+          "author": "Школа программирования",
+          "language": "kk",
+          "note": "Арифметикалық операторлар мен айнымалылар арқылы есептеу.",
+          "source": "https://www.youtube.com/watch?v=Oy8iUj-t0ME"
+        }
+      ]
+    },
+    "lab-4": {
+      "videos": [
+        {
+          "id": "QnXjS2__woI",
+          "url": "https://www.youtube.com/watch?v=QnXjS2__woI",
+          "title": "Java программалау тілі / Сабақ #2.",
+          "author": "Школа программирования",
+          "language": "kk",
+          "note": "Шартты оператор және тармақталатын есептер.",
+          "source": "https://www.youtube.com/watch?v=QnXjS2__woI"
+        }
+      ]
+    },
+    "lab-5-6": {
+      "videos": [
+        {
+          "id": "BwR8B-xyacI",
+          "url": "https://www.youtube.com/watch?v=BwR8B-xyacI",
+          "title": "Алгоритмдер қазақша | #2 - Сұрыптау алгоритмдері",
+          "author": "CodeeKZ - ашық IT сабақтары",
+          "language": "kk",
+          "note": "Сұрыптау алгоритмдері мысалында қайталанатын әрекеттер мен циклдерді талдау.",
+          "source": "https://www.youtube.com/watch?v=BwR8B-xyacI"
+        }
+      ]
+    },
+    "lab-7": {
+      "videos": [
+        {
+          "id": "1cCErm7m9uI",
+          "url": "https://www.youtube.com/watch?v=1cCErm7m9uI",
+          "title": "Лекция 6 Жолдармен жұмыс",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Java жолдары және мәтіндік деректерді өңдеу.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        },
+        {
+          "id": "1uvFj9lNWnk",
+          "url": "https://www.youtube.com/watch?v=1uvFj9lNWnk",
+          "title": "Алгоритмдер қазақша | #5 - ArrayList-ті құру",
+          "author": "CodeeKZ - ашық IT сабақтары",
+          "language": "kk",
+          "note": "ArrayList тізімінің құрылымы және элементтерімен жұмыс.",
+          "source": "https://www.youtube.com/watch?v=1uvFj9lNWnk"
+        }
+      ]
+    },
+    "lab-8": {
+      "videos": [
+        {
+          "id": "e2_9PspS438",
+          "url": "https://www.youtube.com/watch?v=e2_9PspS438",
+          "title": "Лекция 2 Объектіге бағытталған әдіс",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Объектіге бағытталған әдіс және бағдарламаны әрекеттерге бөлу.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        },
+        {
+          "id": "l5Sm2Ps6AOg",
+          "url": "https://www.youtube.com/watch?v=l5Sm2Ps6AOg",
+          "title": "Пайдаланушы функциялары мен процедуралары. Рекурсия 10 - сынып",
+          "author": "Кашыктан уйрен / Информатика АКТ",
+          "language": "kk",
+          "note": "Функциялар мен рекурсияның жалпы алгоритмдік түсіндірмесі. Мектеп бағдарламасындағы мысалдарды Java әдістерінің синтаксисіне бейімдеңіз.",
+          "source": "https://www.youtube.com/watch?v=l5Sm2Ps6AOg"
+        }
+      ]
+    },
+    "lab-9": {
+      "videos": [
+        {
+          "id": "Adfis0xegGY",
+          "url": "https://www.youtube.com/watch?v=Adfis0xegGY",
+          "title": "Лекция 7 Java тілінің стандартты кітапханалары және пакеттер",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Жиындармен жұмысқа дайындық: Java стандартты кітапханалары мен пакеттерін қосу. Бұл сабақ Set/HashSet бойынша жеке сабақ емес; коллекциялармен жұмысқа қажетті кітапхана негізін түсіндіреді.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        }
+      ]
+    },
+    "lab-10": {
+      "videos": [
+        {
+          "id": "_0wTQlUfyog",
+          "url": "https://www.youtube.com/watch?v=_0wTQlUfyog",
+          "title": "Java. ООП. Матрицаны құру және көбейту программасы",
+          "author": "Aibol Maxotov",
+          "language": "kk",
+          "note": "Java тілінде екіөлшемді массивтен матрица құру және көбейту.",
+          "source": "https://www.youtube.com/watch?v=_0wTQlUfyog"
+        }
+      ]
+    },
+    "lab-11": {
+      "videos": [
+        {
+          "id": "Adfis0xegGY",
+          "url": "https://www.youtube.com/watch?v=Adfis0xegGY",
+          "title": "Лекция 7 Java тілінің стандартты кітапханалары және пакеттер",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Сөздіктермен жұмысқа дайындық: Java стандартты кітапханалары мен пакеттері. Бұл сабақ Map/HashMap бойынша жеке сабақ емес; java.util құралдарын қолданудың жалпы негізін түсіндіреді.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        }
+      ]
+    },
+    "lab-12": {
+      "videos": [
+        {
+          "id": "-FwgqBZ4pzg",
+          "url": "https://www.youtube.com/watch?v=-FwgqBZ4pzg",
+          "title": "Лекция 3 Объектілер мен класстар  туралы түсінік",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Класс, объект және олардың өзара байланысы.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        }
+      ]
+    },
+    "lab-13": {
+      "videos": [
+        {
+          "id": "Adfis0xegGY",
+          "url": "https://www.youtube.com/watch?v=Adfis0xegGY",
+          "title": "Лекция 7 Java тілінің стандартты кітапханалары және пакеттер",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Java пакеттері мен стандартты кітапханаларын пайдалану.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        }
+      ]
+    },
+    "lab-14": {
+      "videos": [
+        {
+          "id": "Adfis0xegGY",
+          "url": "https://www.youtube.com/watch?v=Adfis0xegGY",
+          "title": "Лекция 7 Java тілінің стандартты кітапханалары және пакеттер",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Тақырыптың Java кітапханаларын пайдалану бөлігіне арналған қосымша сабақ.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        },
+        {
+          "id": "_0wTQlUfyog",
+          "url": "https://www.youtube.com/watch?v=_0wTQlUfyog",
+          "title": "Java. ООП. Матрицаны құру және көбейту программасы",
+          "author": "Aibol Maxotov",
+          "language": "kk",
+          "note": "Матрицалық есептеулерді Java тілінде орындау мысалы. MATLAB ортасындағы интерфейс бұл бейнеде қарастырылмайды.",
+          "source": "https://www.youtube.com/watch?v=_0wTQlUfyog"
+        }
+      ]
+    },
+    "lab-15": {
+      "videos": [
+        {
+          "id": "5P1JN5l7saI",
+          "url": "https://www.youtube.com/watch?v=5P1JN5l7saI",
+          "title": "Лекция 9 Ерекшеліктерді өңдеу",
+          "author": "КиИИ_КарТУ имени Абылкаса Сагинова",
+          "language": "kk",
+          "note": "Java ерекше жағдайлары, try/catch және қателерді өңдеу.",
+          "source": "https://edu.kstu.kz/course/view.php?id=3204"
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 2,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 3,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 4,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 5,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 6,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 7,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 8,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 9,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 10,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 11,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 12,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 13,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 14,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 15,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 16,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 17,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 18,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 19,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 20,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 21,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 22,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 23,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 24,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 25,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 26,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 27,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 28,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 29,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 30,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 31,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 32,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 33,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 34,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 35,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 36,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 37,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 38,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 39,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 40,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 41,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 42,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 43,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 44,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 45,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 46,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 47,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 48,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 49,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 50,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 51,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 52,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 53,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 54,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 55,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 56,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 57,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 58,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 59,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 60,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 61,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 62,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 63,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 64,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 65,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 66,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 67,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 68,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 69,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 70,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 71,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 72,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 73,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 74,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 75,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 76,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 77,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 78,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 79,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 80,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 81,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 82,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 83,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 84,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 85,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 86,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 87,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 88,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 89,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 90,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 91,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 92,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 93,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 94,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 95,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 96,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 97,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 98,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 99,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 100,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 101,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 102,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 103,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 104,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 105,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 106,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 107,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 108,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 109,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 110,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 111,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 112,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 113,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 114,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 115,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 116,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 117,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 118,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 119,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 120,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 121,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 122,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 123,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 124,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 125,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 126,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 127,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 128,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 129,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 130,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 131,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 132,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 133,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 134,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 135,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 136,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 137,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 138,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 139,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 140,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 141,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 142,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 143,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 144,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 145,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 146,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 147,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 148,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 149,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 150,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 151,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 152,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 153,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 154,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    },
+    {
+      "page": 155,
+      "kind": "page",
+      "width": 480,
+      "height": 680
+    }
+  ]
+}
